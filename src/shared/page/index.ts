@@ -7,7 +7,8 @@ export const Page = styled(ColumnFlexbox)`
   height: 100vh;
   width: 100%;
   background: ${Color.Background};
-  padding: 14px 64px 86px;
-  overflow: hidden;
+  padding: 14px 64px;
+  overflow-y: scroll;
+  overflow-x: hidden;
   position: relative;
 `

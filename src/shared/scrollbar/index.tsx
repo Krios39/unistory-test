@@ -9,10 +9,11 @@ interface ScrollbarProps {
 }
 
 export const Scrollbar = (props: ScrollbarProps) => {
+
     return (
         <Scrollbars
             autoHeight
-            autoHeightMax={'calc(100vh - 920px)'}
+            autoHeightMax={`calc(${document.body.scrollHeight}px - 700px)`}
             hideTracksWhenNotNeeded
             renderThumbVertical={(props) => <VerticalThumb {...props}/>}
             renderTrackVertical={(props) => <VerticalTrack {...props}/>}
