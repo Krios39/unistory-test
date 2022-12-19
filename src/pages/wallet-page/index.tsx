@@ -24,7 +24,7 @@ export const WalletPage = () => {
             WalletsService.getWalletById(+id).then(data => setWallet(data))
 
         }
-    }, [])
+    }, [params?.id])
 
     return (
         <Page>

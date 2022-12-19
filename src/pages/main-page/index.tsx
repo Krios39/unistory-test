@@ -26,7 +26,7 @@ export const MainPage = memo(() => {
                 }
             )
         }
-    }, [walletsMeta.currentPage])
+    }, [error, walletsMeta?.currentPage, walletsMeta?.perPage])
 
 
     const addWallet = (user: string, email: string, address: string) => {

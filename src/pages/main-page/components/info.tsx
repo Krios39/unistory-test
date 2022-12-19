@@ -1,10 +1,9 @@
 import {
-    CenteredFlexWithSpacing,
     ColumnCenteredFlex, ColumnCenteredFlexWithPadding,
-    ColumnFlexWithPadding, FlexWithSpacing,
+    ColumnFlexWithPadding,
     HorizontallyCenteredFlexWithSpaceBetween
 } from "../../../typography/flex";
-import {BigText, Header, HeaderBig, SmallText, Text} from "../../../typography/text";
+import {BigText, Header, HeaderBig, Text} from "../../../typography/text";
 import styled from "styled-components";
 import {Color} from "../../../styles/colors";
 import {BackgroundPlanet} from "./background-planet";

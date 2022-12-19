@@ -18,6 +18,6 @@ export const Portal = ({ children, className = 'root-portal', el = 'div', id }: 
         return () => {
             document.body.removeChild(container);
         };
-    }, []);
+    }, [className, container, id]);
     return ReactDOM.createPortal(children, container);
 };
