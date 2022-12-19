@@ -15,7 +15,7 @@ export const BackgroundPlanet = (props: BackgroundPlanetProps) => {
             <BackgroundCircleWithGradient/>
             <BackgroundCircle/>
             <HalfCircleLoader animate={props.animate || false}/>
-            <Image src={'/planet.svg'}/>
+            <Image src={'/planet.png'}/>
         </PlanetComponent>
     )
 }
